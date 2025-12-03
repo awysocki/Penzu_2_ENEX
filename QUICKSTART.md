@@ -27,7 +27,9 @@ Close all Chrome windows, then run ONE of these:
 ### 4. Log in to Penzu
 1. Chrome will open a debug version - go to https://penzu.com
 2. Log in to your account
-3. Navigate to your journal (just open any journal page or entry)
+3. Navigate to your journal and **open an existing entry** (not a new entry)
+   - You can click on any existing journal entry
+   - Don't stay on the "new entry" page
 
 ### 5. Run the script
 In PowerShell:

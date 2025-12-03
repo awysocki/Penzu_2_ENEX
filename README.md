@@ -95,10 +95,11 @@ chromium --remote-debugging-port=9222 --user-data-dir="/tmp/chrome-debug"
 ### 3. Log in to Penzu
 
 1. In the Chrome window that opened, go to https://penzu.com and log in
-2. Navigate to your journal (just open any journal page or entry)
+2. Navigate to your journal and **open an existing entry** (not a new entry)
    - The script will automatically extract your journal ID from the URL
-   - If you're viewing an entry, it will use that as the starting point
-   - If not, it will fetch your most recent entry from the API
+   - If you're viewing an existing entry, it will use that as the starting point
+   - If you're on the journal home page, it will fetch your most recent entry from the API
+   - **Important**: Do not be on the "new entry" page when running the script
 
 ### 4. Run the Export Script
 

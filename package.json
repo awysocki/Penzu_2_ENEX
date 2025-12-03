@@ -1,0 +1,22 @@
+{
+  "name": "penzu-export",
+  "version": "1.0.0",
+  "description": "Export Penzu journal entries",
+  "main": "penzu-export.js",
+  "scripts": {
+    "start": "node penzu-export.js"
+  },
+  "keywords": [
+    "penzu",
+    "export",
+    "journal"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "crypto-js": "^4.2.0",
+    "oauth-1.0a": "^2.2.6",
+    "puppeteer": "^24.31.0"
+  }
+}

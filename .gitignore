@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Exported data
+penzu-entries.json
+penzu-entries.enex
+exported-entries/
+
+# Debug files
+debug-*.js
+
+# Chrome debug profile
+C:\temp\chrome-debug/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
